@@ -1,7 +1,7 @@
 .btn-saiba-mais {
     display: inline-block;
+    background-color: orange;
     padding: 10px 20px;
-    background-color: #ff9900;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -12,31 +12,29 @@
 }
 
 body {
-    background: #991199;
+    background-color: rgba(165, 14, 185, 0.849);
+    background-image: url("imagens/banner-site.jpg");
     width: 100%;
     float: left;
 }
 
 #head {
-    background-image: url("imagens/banner-site.jpg");
-    background: #991199;
+    background-image: url("imagens/fun2.png");
     width: 100%;
     float: left;
 }
 
 #principal {
-    background-color: rgb(251, 132, 4);
     width: 920px;
 }
 
 #galeria {
     width: 920px;
     margin-top: 5px;
-    background-color: #991199;
+    
 }
 
 .noticia {
-    background-color: #dd1ddd;
     padding: 6px;
     width: 280px;
     margin: 7px;
@@ -44,7 +42,7 @@ body {
 }
 
 .imagens-galeria {
-    background-color: #991199;
+
     width: 900px;
     padding: 5px;
     margin: 7px;
