@@ -20,13 +20,14 @@
         }
 
         body {
-            background: #c30dc3;
+            background: #991199;
             width: 920px;
             float: left;
         }
 
         #head {
-            background: #c30dc3;
+            background-image: url("imagens/banner-site.jpg");
+            background: #991199;
             width: 920px;
             float: right;
             
@@ -42,12 +43,12 @@
     
             width: 920px;
             margin-top: 5px;
-            background-color: rgb(255, 154, 3);
+            background-color: #991199;
         }
 
         .noticia {
-            background-color: #991199;
-            padding: 5px;
+            background-color: #dd1ddd;
+            padding: 6px;
             width: 280px;
             margin: 7px;
             float:left;
@@ -59,10 +60,28 @@
             padding: 5px;
             margin: 7px;
         }
-        .clear {
-            clear: both;
+
+        .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        }
+  
+        .navbar-logo {
+            flex: 1;
+        }
+  
+        .nav-links {
+            display: flex;
+            gap: 1rem;
         }
 
+        .nome {
+            display: flex; 
+            padding: 1rem;
+            background-image: url("imagens/banner-site.jpg");
+        }
+        
 
     </style>
 </style>
@@ -71,15 +90,32 @@
     </head>
     <body>
         <header>
-            <h1>Mayara Lira Groomer <img src="logo-removebg-preview.png" alt=" " height="190" width="200"></h1>
-            <p>Página dedicada a todos os amantes de pet. Aqui você encontra notícias do mundo pet, curiosidades e um pouco do meu trabalho.</p>
-           
+
+            <div class="navbar">
+                <div class="navbar-logo"></div>
+                <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </div>
+
+            <div class="nome">
+                <div class="nome-pagina"></div>
+        
+            <img src="imagens/groomer 2.png" alt=" " height="190" width="200">
+        
+                </div>
+
             <a href="#principal" class="btn-saiba-mais">Saiba Mais</a>
+
         </header>
+
+        
             <div id="head">
                 <div class="head">
                     </div>
-   <div id="principal"> 
+
+
             <div class="noticia">  
                 <h2>Saúde Bucal: Como cuidar dos dentinhos do seu AUmiguinho!</h2>
                 <p>
@@ -129,33 +165,33 @@
                 <p>
                     <h1>Galeria de Penteados</h1>
                 </p>
-                <img class="imagem" src="/penteado3.jpg" alt=" " height="250" width="250">
-                <img src="/penteado.jpg" alt=" " height="250" width="250"> <a href="https://www.instagram.com/mayara_lira_groom/">veja mais</a>
+                <img class="imagem" src="imagens/penteado3.jpg" alt=" " height="250" width="250">
+                <img src="imagens/penteado.jpg" alt=" " height="250" width="250"> <a href="https://www.instagram.com/mayara_lira_groom/">veja mais</a>
         </div>
             
         <div class="imagens-galeria">
             <p>
                 <h1>Fofuras no Banho</h1>
             </p>
-            <img src="/salsicha1.jpg" alt=" "height="165" width="165">
-            <img src="/corgi.jpg" alt=" "height="165" width="165">
-            <img src="/pinscher.jpg" alt=" "height="165" width="165">
-            <img src="/banho.jpg" alt=" "height="165" width="165">
-            <img src="golden.jpg" alt=" "height="165" width="165">
+            <img src="imagens/salsicha1.jpg" alt=" "height="165" width="165">
+            <img src="imagens/corgi.jpg" alt=" "height="165" width="165">
+            <img src="imagens/pinscher.jpg" alt=" "height="165" width="165">
+            <img src="imagens/banho.jpg" alt=" "height="165" width="165">
+            <img src="iamgens/golden.jpg" alt=" "height="165" width="165">
         </div>
 
         <div class="imagens-galeria">
             <p>
                 <h1>A importancia da remoção de pelos soltos</h1>
             </p>
-            <img src="/pug.jpg" alt=" " height="250" width="250"><a href="http://www.mundoanimal.vet.br/site/dicas_pet_view.php?t=Centro_de_Estética:_Cães_de_pelagem_curta&d=35&">veja mais</a>
+            <img src="imagens/pug.jpg" alt=" " height="250" width="250"><a href="http://www.mundoanimal.vet.br/site/dicas_pet_view.php?t=Centro_de_Estética:_Cães_de_pelagem_curta&d=35&">veja mais</a>
         </div>
 
         <div class="imagens-galeria">
             <p>
                 <h1>Spitz Alemão: Veja quais são os cuidados com a pelagem dessa raça</h1>
             </p>
-            <img src="/spitz1.jpg" alt=" " height="250" width="250"><a href="https://vidadebicho.globo.com/racas/noticia/2023/02/como-cuidar-do-pelo-do-spitz-alemao-veja-o-guia-completo.ghtml">veja mais</a>
+            <img src="imagens/spitz1.jpg" alt=" " height="250" width="250"><a href="https://vidadebicho.globo.com/racas/noticia/2023/02/como-cuidar-do-pelo-do-spitz-alemao-veja-o-guia-completo.ghtml">veja mais</a>
         </div>
         </div>
 
