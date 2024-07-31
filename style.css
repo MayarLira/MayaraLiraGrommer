@@ -11,16 +11,27 @@
     top: 20px;
 }
 
+<<<<<<< Updated upstream
 body {
     background-color: rgba(165, 14, 185, 0.849);
     background-image: url("imagens/banner-site.jpg");
+=======
+header {
+    background: #991199;
+>>>>>>> Stashed changes
     width: 100%;
     float: left;
 }
 
+<<<<<<< Updated upstream
 #head {
     background-image: url("imagens/fun2.png");
+=======
+#body {
+    background: #991199;
+>>>>>>> Stashed changes
     width: 100%;
+    display: flex;
     float: left;
 }
 
@@ -29,9 +40,29 @@ body {
 }
 
 #galeria {
-    width: 920px;
+    width: 100%;
     margin-top: 5px;
+<<<<<<< Updated upstream
     
+=======
+    background-color: #991199;
+    display: flex;
+}
+
+.imagens-galeria-penteados {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #991199;
+    display: flex;
+}
+
+.imagens-galeria-banho {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #991199;
+    display: flex;
+>>>>>>> Stashed changes
 }
 
 .noticia {
@@ -46,6 +77,7 @@ body {
     width: 900px;
     padding: 5px;
     margin: 7px;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .navbar {
@@ -77,4 +109,8 @@ body {
 
 .banner {
     width: 100%;
+}
+
+#principal {
+    font-family: sans-serif;
 }
