@@ -10,63 +10,56 @@
     right: 20px;
     top: 20px;
 }
-
-body {
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }body {
     background-color: rgba(165, 14, 185, 0.849);
-    background-image: url("imagens/banner-site.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url("imagens/banner-site2.jpg");
+    width: 100%;
+    float: none;
+
+  }
+'''' """"""
+    background-color: rgba(165, 14, 185, 0.849);
+    background-repeat: no-repeat;
+    padding: 10px 40px;
     width: 100%;
     float: left;
 }
-
-#head {
-    background-image: url("imagens/fun2.png");
-    width: 100%;
-    float: left;
-}
-
+""
 #principal {
-    width: 920px;
+    width: 950x;
+    margin-top: 10px;
 }
 
 #galeria {
-    width: 920px;
-    margin-top: 5px;
+    width: 950px;
+    margin-top: 10px;
     
 }
 
 .noticia {
     padding: 6px;
     width: 280px;
-    margin: 7px;
+    margin: 10px;
     float: left;
+    color: white;
 }
 
 .imagens-galeria {
 
     width: 900px;
-    padding: 5px;
-    margin: 7px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    margin: 15px;
+    float: left;
+    
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    text-align: center;
-    max-width: fit-content;
-}
-
-.navbar-logo {
-    flex: 1;
-    float: right;
-    height: auto;
-}
-
-.nav-links {
-    display: flex;
-    gap: 1rem;
-    height: auto;
-}
 
 .nome {
     display: flex;
@@ -75,6 +68,3 @@ body {
     height: auto;
 }
 
-.banner {
-    width: 100%;
-}
