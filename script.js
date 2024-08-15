@@ -1,4 +1,3 @@
-document.getElementById('nome').value = 'Pesquisa';
 
 function myFunction() {
     LET x = document.getElementById("myTopnav");
