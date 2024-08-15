@@ -1,40 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styleForm.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styleForm.css" />
 
     <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <form name="Contato" method="post" id="Contato">
-        <div class="box">
-            <h1>Formulario de Contato :</h1>
-    
-            <label>
-                <span>Nome Completo</span>
-                 <input type="text" class="input_text" name="nome" id="name"/>
-    
-            </label>
-    
-            <label>
-                 <span>Email</span>
-                <input type="text" class="input_text" name="email" id="email"/>
-             </label>
-    
-            <label>
-                 <span>Assunto</span>
-                <input type="text" class="input_text" name="assunto" id="subject"/>
-            </label>
-    
-            <label>
-                 <span>Mensagem</span>
-                <textarea class="message" name="feedback" id="feedback"></textarea>
-                <input type="button" class="button" value="Enviar" />
-            </label>
-        </div>
+      <div class="box">
+        <h1>Formulario de Contato :</h1>
+
+        <label>
+          <span>Nome Completo</span>
+          <input type="text" class="input_text" name="nome" id="name" />
+        </label>
+
+        <label>
+          <span>Telefone</span>
+          <input type="text" class="input_text" name="phone" id="phone" />
+        </label>
+
+        <label>
+          <span>Assunto</span>
+          <input type="text" class="input_text" name="assunto" id="subject" />
+        </label>
+
+        <label>
+          <span>Observações sobre o pet</span>
+          <textarea class="message" name="feedback" id="feedback"></textarea>
+          <input type="button" class="button" value="Enviar" />
+        </label>
+      </div>
     </form>
-    
-</body>
+
+    <div>
+      <div class="card">
+        <img
+          src="imagens/banheira.png"
+          alt="Agendar banho"
+          style="width: 120px"
+        />
+        <h1>Banho</h1>
+        <p class="price">R$40.00</p>
+        <p>Banho com tosa higiênica</p>
+        <p>
+          <button
+            onclick="createItem('Banho', 'R$40.00', 'Banho com tosa higiênica')"
+          >
+            Agendar
+          </button>
+        </p>
+      </div>
+
+      <div class="card2">
+        <img src="imagens/pente.png" alt="Agendar banho" style="width: 120px" />
+        <h1>Banho e Tosa (Tesoura)</h1>
+        <p class="price">R$120,00</p>
+        <p>Banho com Tosa na tesoura</p>
+        <p>
+          <button
+            onclick="createItem('Banho e tosa (Tesoura)', 'R$120,00', 'Banho com tosa na tesoura')"
+          >
+            Agendar
+          </button>
+        </p>
+      </div>
+
+      <div class="card3">
+        <img
+          src="imagens/maquina-de-cortar-cabelo.png"
+          alt="Agendar banho"
+          style="width: 120px"
+        />
+        <h1>Banho e Tosa (Máquina)</h1>
+        <p class="price">R$100,00</p>
+        <p>Banho com tosa na máquina</p>
+        <p>
+          <button
+            onclick="createItem('Banho e Tosa (Máquina)', 'R$100,00', 'Banho com tosa na máquina')"
+          >
+            Agendar
+          </button>
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
