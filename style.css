@@ -1,252 +1,248 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .btn-saiba-mais {
-  display: inline-block;
-  background-color: orange;
-  padding: 10px 20px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  position: absolute;
-  right: 20px;
-  top: 20px;
+    display: inline-block;
+    background-color: orange;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 @media only screen and (max-width: 480px) {
-  img {
-    width: 100%;
-  }
+    img {
+        width: 100%;
+    }
 }
 
 body {
-  background-color: rgba(165, 14, 185, 0.849);
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 100%;
-  float: none;
+    background-color: rgba(165, 14, 185, 0.849);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    float: none;
 }
 
 #head {
-  background-color: rgba(165, 14, 185, 0.849);
-  background-repeat: no-repeat;
-  width: 100%;
-  float: left;
+    background-color: rgba(165, 14, 185, 0.849);
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
 }
 
 #principal {
-  width: 950px;
-  margin-top: 10px;
+    width: 950px;
+    margin-top: 10px;
 }
 
 #galeria {
-  width: 950px;
-  margin-top: 10px;
-  color: white;
-  background-color: rgba(165, 14, 185, 0.849);
+    width: 950px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(165, 14, 185, 0.849);
 }
 
 .noticia {
-  padding: 15px;
-  width: 280px;
-  margin: 10px;
-  float: left;
-  color: white;
+    padding: 15px;
+    width: 280px;
+    margin: 10px;
+    float: left;
+    color: white;
 }
 
 .imagens-galeria {
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
-  color: white;
-  margin: 15px;
-  float: left;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    margin: 15px;
+    float: left;
 }
 
 .nome {
-  display: flex;
-  padding: 1rem;
-  width: 100vw;
-  height: auto;
+    display: flex;
+    padding: 1rem;
+    width: 100vw;
+    height: auto;
 }
 
 .topnav {
-  background-color: orange;
-  overflow: hidden;
+    background-color: orange;
+    overflow: hidden;
 }
 
-
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 12px 85px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 85px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 
 .topnav a.active {
-  background-color: orange;
-  color: white;
-  padding: 12px 100px;
+    background-color: orange;
+    color: white;
+    padding: 12px 100px;
 }
 
 .topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
     display: none;
-  }
-  .topnav a.icon {
-    float: both;
-    display: inline - block;
-  }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive a.icon {
-    position: relative;
-    right: 0;
-    top: 20;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: inline-block;
-    text-align: left;
-    
-  }
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: both;
+        display: inline - block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: relative;
+        right: 0;
+        top: 20;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: inline-block;
+        text-align: left;
+    }
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(83, 8, 19, 0.086);
-  max-width: 300px;
-  margin: 50px;
-  padding: 20px;
-  text-align: center;
-  font-family: arial;
+    box-shadow: 0 4px 8px 0 rgba(83, 8, 19, 0.086);
+    width: 30%;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: arial;
 }
 
 .price {
-  color: grey;
-  font-size: 22px;
+    color: grey;
+    font-size: 22px;
 }
 
 .card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
 .card button:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .card2 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: 50px;
-  padding: 10px;
-  background-color: white;
-  text-align: center;
-  font-family: arial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: 50px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    font-family: arial;
 }
 
 .price {
-  color: grey;
-  font-size: 22px;
+    color: grey;
+    font-size: 22px;
 }
 
 .card2 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
 .card2 button:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .card3 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: 50px;
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-  font-family: arial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 30%;
+    margin: 50px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: arial;
 }
 
 .card3 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
 .card3 button:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
-.parent-card {
-  display: flex;
-  width: 100%
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+@media screen and (max-width: 2100px) {
+    .parent-card {
+        display: flex;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
-
 
 .rodape {
-  background-repeat: no-repeat;
-  display: block;
-  margin-top: 8%;
-  margin-right: 50%;
-  margin-left: 50%;
-  width: 50%;
-  justify-content:start;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 8%;
+    margin-right: 50%;
+    margin-left: 50%;
+    width: 50%;
+    justify-content: start;
 }
 
 #inf_contato {
-  margin-top: 2%;
-  justify-content:start;
-  
+    margin-top: 2%;
+    justify-content: start;
 }
 
 #logo {
-  background-repeat: no-repeat;
-  display: block;
-  margin-top: 8%;
-  margin-left: 50%;
-  width:80%;
-  background-position: bottom;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 8%;
+    margin-left: 50%;
+    width: 80%;
+    background-position: bottom;
 }
