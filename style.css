@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .btn-saiba-mais {
   display: inline-block;
   background-color: orange;
@@ -53,7 +57,7 @@ body {
 }
 
 .imagens-galeria {
-  width: 900px;
+  width: 100%;
   padding: 10px;
   margin: 10px;
   color: white;
@@ -73,7 +77,6 @@ body {
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 
 .topnav a {
   float: left;
@@ -123,6 +126,7 @@ body {
     float: none;
     display: inline-block;
     text-align: left;
+    
   }
 }
 
@@ -215,9 +219,34 @@ body {
 
 .parent-card {
   display: flex;
+  width: 100%
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
-.card2,
-.card,
-.card3 {
+
+.rodape {
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 8%;
+  margin-right: 50%;
+  margin-left: 50%;
+  width: 50%;
+  justify-content:start;
+}
+
+#inf_contato {
+  margin-top: 2%;
+  justify-content:start;
+  
+}
+
+#logo {
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 8%;
+  margin-left: 50%;
+  width:80%;
+  background-position: bottom;
 }
